@@ -1,69 +1,68 @@
-ToyCraft_Manufacturer_Using_Tableau
-ToyCraft Tales: Tableau’s Vision into Toy Manufacturer Data
+📊 ToyCraft Tales: Tableau’s Vision into Toy Manufacturer Data
 🧩 Project Overview
 
-ToyCraft Tales is a data visualization project developed using Tableau to analyze trends and regional patterns in the US toy manufacturing industry.
+ToyCraft Tales is a data visualization project developed using Tableau to analyze toy manufacturer data provided by our mentor. The project focuses on understanding industry trends, regional distribution, and performance patterns across the United States.
 
-The project transforms structured manufacturer data into interactive dashboards that uncover market trends, production distribution, and index-based performance insights. The goal is to support data-driven strategic decisions through clear and meaningful visual storytelling.
+The dataset includes key fields such as State, Year, Number of Manufacturers, and Index, which are used to generate meaningful business insights through interactive dashboards and structured storytelling.
 
-📘 Project Documentation
-🌟 1. Key Features
+📂 Dataset Features
 
-🔹 Interactive Tableau Dashboard
-🔹 Year-wise Industry Trend Analysis
-🔹 Regional Manufacturer Comparison
-🔹 Index-Based Performance Distribution
-🔹 Story-Driven Data Presentation
+The dataset contains the following attributes:
 
-🧩 2. System Requirements
-Component	Minimum Requirement
-OS	Windows 10 / macOS
-RAM	8 GB+ recommended
-Tableau	Tableau Desktop (latest version)
-Data Source	CSV / Excel dataset
-📁 Project Files
-File/Folder	Description
-/data/	Raw toy manufacturer dataset
-/dashboard/	Tableau packaged workbook (.twbx)
-/story/	Tableau Story presentation
-/images/	Dashboard screenshots
-README.md	Project overview and documentation
+State – Represents US states
 
-📊 Dashboard Components
+Year – Time-based analysis field
 
-Top 10 States by Toy Manufacturers
+Number of Manufacturers – Total toy manufacturers
 
-Year-wise Manufacturer Trend (Area Chart)
+Index – Performance indicator metric
 
-Index-Based Manufacturer Distribution
+These fields enable analysis of regional concentration, temporal trends, and index-based performance evaluation.
 
-Regional Performance Comparison
+📈 Key Visualizations
 
-Market Trend Intensity (stackedbar chart)
+The project includes multiple analytical sheets:
 
-🧠 Business Use Scenarios
+Top 10 States by Toy Manufacturers – Identifies major manufacturing hubs
 
-🎯 Regional Market Analysis
-📈 Industry Growth Monitoring
-🏭 Manufacturing Concentration Insights
-📊 Executive-Level Reporting
+Year-wise Manufacturer Trend Analysis – Shows industry growth and decline patterns
 
-🗺️ Project Workflow
-Phase	Deliverable
-Phase 1	Data Cleaning & Preparation
-Phase 2	Exploratory Data Analysis
-Phase 3	Dashboard Development
-Phase 4	Story Creation & Insight Documentation
-Phase 5	Final Review & Publishing
+Index-Based Distribution Analysis – Examines performance concentration levels
 
-🚀 Future Enhancements
+Regional Performance Comparison – Compares states using index values
 
-✅ Integrate real-time industry datasets
-✅ Add predictive trend analysis using ML
-✅ Deploy dashboard on Tableau Public / Server
-✅ Expand dataset to include sales & demographic data
+Market Trend Intensity (Heatmap) – Displays state-wise trends across years
 
+🖥️ Dashboard
 
-💡 Project Focus
+All visualizations are integrated into a single interactive dashboard that provides a comprehensive overview of:
 
-This project emphasizes clarity, correct chart selection, and structured storytelling rather than unnecessary complexity.
+Industry trends
+
+Regional distribution
+
+Performance insights
+
+Market intensity patterns
+
+The dashboard is designed for clarity, simplicity, and effective data storytelling.
+
+📖 Story
+
+A structured Tableau Story is created to present insights in a logical flow:
+
+Industry Overview
+
+Trend Analysis
+
+Regional & Performance Insights
+
+This helps communicate findings in a step-by-step narrative format.
+
+🌍 Deployment
+
+The final project is published on Tableau Public, making it accessible through a web browser for interactive exploration.
+
+🎯 Conclusion
+
+This project demonstrates how Tableau can transform raw toy manufacturing data into meaningful insights using appropriate visualization techniques and structured storytelling. It highlights regional manufacturing hubs, industry trends, and performance patterns to support data-driven analysis.
